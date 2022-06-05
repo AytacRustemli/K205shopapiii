@@ -1,0 +1,38 @@
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\ref\DataAccess.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\Core.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\Core.pdb
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\Entitties.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\Entitties.pdb
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+D:\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+D:\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+D:\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\DataAccess.dll
+D:\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\ref\DataAccess.dll
+D:\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+D:\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\Core.dll
+D:\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\Entitties.dll
+D:\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\Core.pdb
+D:\K205\Back\K205Shop\DataAccess\bin\Debug\net6.0\Entitties.pdb
+D:\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+D:\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.dll
+D:\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+D:\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+D:\K205\Back\K205Shop\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache

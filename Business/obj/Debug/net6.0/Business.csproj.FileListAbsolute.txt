@@ -1,0 +1,38 @@
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\bin\Debug\net6.0\Business.deps.json
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\bin\Debug\net6.0\Business.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\bin\Debug\net6.0\ref\Business.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\bin\Debug\net6.0\Business.pdb
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\obj\Debug\net6.0\Business.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\obj\Debug\net6.0\ref\Business.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\obj\Debug\net6.0\Business.pdb
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\bin\Debug\net6.0\Core.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\bin\Debug\net6.0\DataAccess.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\bin\Debug\net6.0\Entitties.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\bin\Debug\net6.0\Entitties.pdb
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\bin\Debug\net6.0\Core.pdb
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+D:\K205\Back\K205Shop\Business\bin\Debug\net6.0\Business.deps.json
+D:\K205\Back\K205Shop\Business\bin\Debug\net6.0\Business.dll
+D:\K205\Back\K205Shop\Business\bin\Debug\net6.0\ref\Business.dll
+D:\K205\Back\K205Shop\Business\bin\Debug\net6.0\Business.pdb
+D:\K205\Back\K205Shop\Business\bin\Debug\net6.0\Core.dll
+D:\K205\Back\K205Shop\Business\bin\Debug\net6.0\DataAccess.dll
+D:\K205\Back\K205Shop\Business\bin\Debug\net6.0\Entitties.dll
+D:\K205\Back\K205Shop\Business\bin\Debug\net6.0\DataAccess.pdb
+D:\K205\Back\K205Shop\Business\bin\Debug\net6.0\Entitties.pdb
+D:\K205\Back\K205Shop\Business\bin\Debug\net6.0\Core.pdb
+D:\K205\Back\K205Shop\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+D:\K205\Back\K205Shop\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\K205\Back\K205Shop\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+D:\K205\Back\K205Shop\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+D:\K205\Back\K205Shop\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+D:\K205\Back\K205Shop\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+D:\K205\Back\K205Shop\Business\obj\Debug\net6.0\Business.dll
+D:\K205\Back\K205Shop\Business\obj\Debug\net6.0\ref\Business.dll
+D:\K205\Back\K205Shop\Business\obj\Debug\net6.0\Business.pdb

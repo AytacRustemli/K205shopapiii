@@ -1,0 +1,30 @@
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Entitties\bin\Debug\net6.0\Entitties.deps.json
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Entitties\bin\Debug\net6.0\Entitties.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Entitties\bin\Debug\net6.0\ref\Entitties.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Entitties\bin\Debug\net6.0\Entitties.pdb
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\Entitties.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\Entitties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\Entitties.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\Entitties.AssemblyInfo.cs
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\Entitties.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\Entitties.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\ref\Entitties.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\Entitties.pdb
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Entitties\bin\Debug\net6.0\Core.dll
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Entitties\bin\Debug\net6.0\Core.pdb
+C:\Users\User\OneDrive\İş masası\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\Entitties.csproj.CopyComplete
+D:\K205\Back\K205Shop\Entitties\bin\Debug\net6.0\Entitties.deps.json
+D:\K205\Back\K205Shop\Entitties\bin\Debug\net6.0\Entitties.dll
+D:\K205\Back\K205Shop\Entitties\bin\Debug\net6.0\ref\Entitties.dll
+D:\K205\Back\K205Shop\Entitties\bin\Debug\net6.0\Entitties.pdb
+D:\K205\Back\K205Shop\Entitties\bin\Debug\net6.0\Core.dll
+D:\K205\Back\K205Shop\Entitties\bin\Debug\net6.0\Core.pdb
+D:\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\Entitties.csproj.AssemblyReference.cache
+D:\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\Entitties.GeneratedMSBuildEditorConfig.editorconfig
+D:\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\Entitties.AssemblyInfoInputs.cache
+D:\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\Entitties.AssemblyInfo.cs
+D:\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\Entitties.csproj.CoreCompileInputs.cache
+D:\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\Entitties.csproj.CopyComplete
+D:\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\Entitties.dll
+D:\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\ref\Entitties.dll
+D:\K205\Back\K205Shop\Entitties\obj\Debug\net6.0\Entitties.pdb
