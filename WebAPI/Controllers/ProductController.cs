@@ -1,4 +1,4 @@
-﻿using Business.Abstract;
+﻿ using Business.Abstract;
 using Business.Constants;
 using Entitties.Concrete;
 using Entitties.DTOs;
@@ -45,7 +45,7 @@ namespace WebAPI.Controllers
             return Ok(new {status = 200, message = product});
         }
 
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpPost("add")]
         public IActionResult AddProduct(AddProductDTO product)
         {

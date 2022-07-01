@@ -19,16 +19,24 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.Configure<JWTConfig>(builder.Configuration.GetSection("JWTConfig"));
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(option =>
+builder.Services.AddAuthentication(x =>
+{
+    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(option =>
 {
     var key = Encoding.ASCII.GetBytes(builder.Configuration["JWTConfig:Key"]);
-
+    var issuer = builder.Configuration["JWTConfig:Issuer"];
+    var audience = builder.Configuration["JWTConfig:Audience"];
     option.TokenValidationParameters = new TokenValidationParameters()
     {
         ValidateIssuerSigningKey = true,
         IssuerSigningKey = new SymmetricSecurityKey(key),
-        ValidateAudience = false,
-        ValidateIssuer = false,
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        RequireExpirationTime = true,
+        ValidIssuer = issuer,
+        ValidAudience = audience
     };
 });
 
@@ -63,6 +71,12 @@ builder.Services.AddScoped<IRoleManager, RoleManager>();
 
 builder.Services.AddScoped<IUserRoleDal, UserRoleDal>();
 builder.Services.AddScoped<IUserRoleManager, UserRoleManager>();
+
+builder.Services.AddScoped<IOrderDal, OrderDal>();
+builder.Services.AddScoped<IOrderManager, OrderManager>();
+
+builder.Services.AddScoped<IOrderTrackingDal, OrderTrackingDal>();
+builder.Services.AddScoped<IOrderTrackingManager, OrderTrackingManager>();
 
 builder.Services.AddScoped<HasingHandler>();
 builder.Services.AddScoped<TokenGenerator>();
@@ -103,8 +117,8 @@ app.UseHttpsRedirection();
 app.UseCors(MyAllowSpecificOrigins);
 
 
-app.UseAuthorization();
 app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllers();
 

@@ -26,5 +26,7 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<K205User> Users { get; set;}
         public DbSet<Role> Roles { get; set; }
         public DbSet<UserRole> UserRoles { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderTracking> OrdersTracking { get; set;}
     }
 }

@@ -1,4 +1,5 @@
-﻿using Business.Abstract;
+﻿using System.IdentityModel.Tokens.Jwt;
+using Business.Abstract;
 using Core.Entity.Models;
 using Core.Security.Hasing;
 using Core.Security.TokenHandler;
@@ -8,6 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Net.Http.Headers;
 
 namespace WebAPI.Controllers
 {
@@ -36,8 +38,9 @@ namespace WebAPI.Controllers
 
             if (user.Email == model.Email && user.Password == _hasingHandler.PasswordHash(model.Password))
             {
-                var resultUser = new UserDTO(user.FullName, user.Email);
-                resultUser.Token = _tokenGenerator.Token(user);
+                var role =  _roleManager.GetRole(user.Id);
+                var resultUser = new UserDTO(user.Id,user.FullName, user.Email);
+                resultUser.Token = _tokenGenerator.Token(user,role.Name);
 
                 return Ok(new { status = 200, message = resultUser });
             }
@@ -48,7 +51,11 @@ namespace WebAPI.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterDTO model)
         {
-            
+            var user = _authManager.GetUserByEmail(model.Email);
+            if (user != null)
+            {
+                return Ok(new { status = 200, message = "Email is exist." });
+            }
             var pass = model.Password;
             if (pass.Length >= 5)
             {
@@ -61,6 +68,20 @@ namespace WebAPI.Controllers
 
             }
         }
+
+        [Authorize]
+        [HttpGet("getbyemail")]
+        public async Task<object> GetByEmail()
+        {
+            var _bearer_token = Request.Headers[HeaderNames.Authorization].ToString().Replace("Bearer ", "");
+            var handler = new JwtSecurityTokenHandler();
+            var jwtSecurityToken = handler.ReadJwtToken(_bearer_token);
+            var email = jwtSecurityToken.Claims.FirstOrDefault(x=>x.Type=="email").Value;
+            var user = _authManager.GetUserByEmail(email);
+            var result = new UserDTO(user.Id,user.FullName,user.Email);
+            return Ok(result);
+        }
+
 
         //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Authorize(Roles = "Admin")]
