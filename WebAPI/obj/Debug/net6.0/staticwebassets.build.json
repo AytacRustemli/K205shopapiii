@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "S/vJ+RxNrTUkDSE4I9jtXD6L++13JkwjiAgZ+CDMEbc=",
+  "Hash": "bEu/yLa6WpcKUpOopSgh6uLq/hYEpq6yrkNUY979pQQ=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPI\\wwwroot",
+      "Source": "WebAPI",
+      "ContentRoot": "D:\\K205\\Back\\K205Shop\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [
     {
       "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.3\\staticwebassets\\V5\\css\\site.css",

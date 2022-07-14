@@ -29,5 +29,7 @@ namespace Business.Concrete
             _productPictureDal.Add(picture);
              
         }
+
+        
     }
 }

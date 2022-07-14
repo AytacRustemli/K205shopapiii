@@ -64,9 +64,17 @@ namespace Business.Concrete
             throw new NotImplementedException();
         }
 
-        public void Update(UpdateProductDTO product)
+        public void UpdateProduct(AddProductDTO product, int id)
         {
-            //_productDal.Update(product);
+            var current = _productDal.Get(x => x.Id == id);
+            current.Name = product.Name;
+            current.Description = product.Description;
+            current.Price = product.Price;
+            current.CoverPhoto = product.CoverPhoto;
+            current.IsSlider = product.IsSlider;
+            current.SKU = product.SKU;
+            current.Summary = product.Summary;
+            _productDal.Update(current);
         }
     }
 }

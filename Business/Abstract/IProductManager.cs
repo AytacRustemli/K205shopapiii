@@ -12,7 +12,7 @@ namespace Business.Abstract
     {
         void AddProduct(AddProductDTO product);
         void Remove(Product product);
-        void Update(UpdateProductDTO product);
+        void UpdateProduct(AddProductDTO product, int id);
         List<Product> GetAllProducts();
         List<ProductDTO> GetAllProductList();
         ProductDTO GetProductById(int id);
